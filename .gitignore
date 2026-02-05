@@ -1,0 +1,73 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# -------------------------
+# Virtual Environments
+# -------------------------
+env/
+venv/
+.venv/
+
+# -------------------------
+# Environment variables
+# -------------------------
+.env
+.env.*
+
+# -------------------------
+# OS / Editor files
+# -------------------------
+.DS_Store
+Thumbs.db
+
+.vscode/
+.idea/
+
+# -------------------------
+# Logs
+# -------------------------
+*.log
+
+# -------------------------
+# Model cache (HuggingFace / Transformers)
+# -------------------------
+.cache/
+huggingface/
+hf_cache/
+~/.cache/huggingface/
+
+# -------------------------
+# Audio outputs
+# -------------------------
+*.wav
+*.mp3
+*.ogg
+
+# -------------------------
+# Temporary / runtime files
+# -------------------------
+tmp/
+temp/
+*.tmp
+
+# -------------------------
+# Testing / coverage
+# -------------------------
+.pytest_cache/
+.coverage
+htmlcov/
+
+# -------------------------
+# FastAPI / Uvicorn
+# -------------------------
+uvicorn.log
+
+# -------------------------
+# Jupyter
+# -------------------------
+.ipynb_checkpoints/

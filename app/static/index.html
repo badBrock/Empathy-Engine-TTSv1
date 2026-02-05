@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empathy Engine</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Empathy Engine</h1>
+        <p>Text → Emotion → Speech</p>
+        
+        <div class="input-section">
+            <textarea id="textInput" placeholder="Enter text..."></textarea>
+            <div class="button-group">
+                <button id="generateBtn">Generate</button>
+                <button id="clearBtn">Clear</button>
+            </div>
+        </div>
+
+        <div id="emotionDisplay" class="emotion-display hidden">
+            <div class="emotion-info">
+                <h3 id="emotionLabel">-</h3>
+                <p id="emotionDetails">-</p>
+            </div>
+        </div>
+
+        <div id="status" class="status hidden"></div>
+        
+        <div id="audioSection" class="audio-section hidden">
+            <audio id="audioPlayer" controls></audio>
+            <div class="audio-info">
+                <span id="audioSettings"></span>
+                <a id="downloadLink" download>Download</a>
+            </div>
+        </div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
